@@ -1,7 +1,7 @@
 # Deploy Django application in AWS App Runner
 
 
-## Sumário
+## Summary
 
 * [Development Architecture](#development-architecture)
 * [Docker Container](#docker-container)
