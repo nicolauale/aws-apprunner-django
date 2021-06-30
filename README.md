@@ -6,6 +6,7 @@
 * [Development Architecture](#development-architecture)
 * [Docker Container](#docker-container)
 * [AWS App Runner](#aws-app-runner)
+* [Django Application](#django-application)
 * [About me](#about-me)
 
 
@@ -102,6 +103,24 @@ python3 /app/manager.py migrate
 
 Once the deployment is complete, you can go to the `Custom domains` folder and parameterize your application's domain, following the AWS instructions.
 
+
+
+## Django Application
+
+Be sure to parameterize your application's security settings as follows.
+
+In the `settings.py` file change the settings.
+
+```python
+ALLOWED_HOSTS = ['*', ]
+```
+
+:warning: **Remove** the setting below so as not to cause **too many redirects** error.
+
+```python
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+```
 
 
 ## About me
