@@ -1,3 +1,9 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Unlicense][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 # Deploy Django application in AWS App Runner
 
 
@@ -130,3 +136,13 @@ Please feel free to contact me. :sunglasses:
 [Alexandre Nicolau](https://www.linkedin.com/in/alexandrenicolau) :herb:
 
 :beers:
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/nicolauale/aws-apprunner-django.svg?style=for-the-badge
+[contributors-url]: https://github.com/nicolauale/aws-apprunner-django/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/nicolauale/aws-apprunner-django.svg?style=for-the-badge
+[stars-url]: https://github.com/nicolauale/aws-apprunner-django/stargazers
+[license-shield]: https://img.shields.io/github/license/nicolauale/aws-apprunner-django.svg?style=for-the-badge
+[license-url]: https://github.com/nicolauale/aws-apprunner-django/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/alexandrenicolau
